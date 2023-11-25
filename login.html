@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles/login.css">
     <link rel="shortcut icon" href="favicon/favicon-32x32.png" type="image/x-icon">
-    <title>Sport interior - Login</title>
+    <title>Sport Interior - Login</title>
 </head>
 <body>
     <div class="container">
@@ -16,16 +16,19 @@
     <form>
         <fieldset>
             <label for="email" class="labelLoginEmail">Email:
-                <input type="email" name="email" class="inputLoginEmail" placeholder="Digite seu Email">
+                <input type="email" name="email" class="inputLoginEmail" placeholder="📧Digite seu Email">
             </label>
 
             <label for="senha" class="labelLoginSenha">Senha:
-                <input type="password" name="senha" class="inputLoginSenha" placeholder="Digite sua Senha...">
+                <input type="password" name="senha" class="inputLoginSenha" placeholder="🔑Digite sua Senha...">
             </label>
 
             <div class="check">
-                <input type="checkbox" name="lembrar" id="chk">
-            <label for="lembrar" id="lembrar">Mantenha-me conectado</label>
+                <label for="lembrar" id="lembrar">
+                    <input type="checkbox" name="lembrar" id="chk">
+                    Mantenha-me conectado
+                </label>
+                <a href="#">Esqueceu a senha?</a>
             </div>
 
             <div class="btn">
@@ -43,10 +46,12 @@
             <label>Nome:
                 <input type="text" id="popupNome" placeholder="Digite seu nome e Sobrenome">
             </label>
+            <br>
 
             <label>E-mail:
                 <input type="email" id="popupEmail" placeholder="Digite seu email">
             </label>
+            <br>
 
             <label>Senha:
                 <input type="password" id="popupSenha" placeholder="Digite uma Senha">
