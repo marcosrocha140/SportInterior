@@ -1,0 +1,33 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(51, 49, 49);
+}
+
+header{
+    background-image: url(imagens/capaHeader.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 120px;
+}
+
+#logo{
+    height: 100%;
+}
+
+nav{
+    background-color: #B2ACAC;
+    padding: 5px;
+    text-decoration: none;
+    text-transform: uppercase;
+} 
+
+a{
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover{
+    background-color: #fab515;
+    height: 200px;
+}

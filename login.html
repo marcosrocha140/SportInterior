@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/login.css">
+    <link rel="shortcut icon" href="favicon/favicon-32x32.png" type="image/x-icon">
+    <title>Sport interior - Login</title>
+</head>
+<body>
+    <div class="container">
+        <img src="imagens/sportCapa.png" alt="soprtInterior">
+        <h1>LOGIN</h1>
+    </div>
+
+    <form>
+        <fieldset>
+            <label for="email" class="labelLoginEmail">Email:
+                <input type="email" name="email" class="inputLoginEmail" placeholder="Digite seu Email">
+            </label>
+
+            <label for="senha" class="labelLoginSenha">Senha:
+                <input type="password" name="senha" class="inputLoginSenha" placeholder="Digite sua Senha...">
+            </label>
+
+            <div class="check">
+                <input type="checkbox" name="lembrar" id="chk">
+            <label for="lembrar" id="lembrar">Mantenha-me conectado</label>
+            </div>
+
+            <div class="btn">
+                <a href="#" id="mostrarPopup">Cadastre-se</a>
+                <button>Logar</button>
+            </div>
+        </fieldset>
+    </form>
+
+    <!--Popup de Cadastro-->
+    <div id="popup" class="popup">
+        <div class="popup-conteudo">
+            <span id="fecharPopup" style="color: red;" class="fechar-popup">x</span>
+            <h2>Cadastre-se Agora</h2>
+            <label>Nome:
+                <input type="text" id="popupNome" placeholder="Digite seu nome e Sobrenome">
+            </label>
+
+            <label>E-mail:
+                <input type="email" id="popupEmail" placeholder="Digite seu email">
+            </label>
+
+            <label>Senha:
+                <input type="password" id="popupSenha" placeholder="Digite uma Senha">
+            </label>
+
+            <div class="btn">
+                <button>Salvar</button>
+            </div>
+
+        </div>
+    </div>
+
+
+<script src="popup.js"></script>
+</body>
+</html>
